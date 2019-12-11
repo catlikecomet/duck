@@ -63,10 +63,9 @@ public class Duck implements Comparable<Duck>{
 
 
         Collections.sort(ducks);
-        ducks.forEach(duck -> System.out.println(ducks));
 
-
-
+        System.out.println(ducks.get(0));
+        System.out.println(ducks.get(1));
 
     }
 }
