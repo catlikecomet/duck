@@ -53,7 +53,6 @@ public class Duck implements Comparable<Duck>{
         return name.compareTo(other.name);
     }
 
-
     public static void main(String[] args) {
 
         List<Duck> ducks = Arrays.asList(
@@ -61,11 +60,10 @@ public class Duck implements Comparable<Duck>{
                 new Duck("Duckington","flap bird", 250, 120)
         );
 
-
         Collections.sort(ducks);
 
-        System.out.println(ducks.get(0));
-        System.out.println(ducks.get(1));
+        System.out.println(ducks.get(0).name);
+        System.out.println(ducks.get(1).name);
 
     }
 }
