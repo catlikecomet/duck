@@ -1,6 +1,8 @@
 
-_squid:S1126("AReplace this if-then-else statement by a single return statement.(Ãşì¥8„ÙæÔí-
 [
-squid:S106B"9Replace this use of System.out or System.err by a logger.(è‚™×ùÿÿÿÿ8ÃÿÌÚí-
+squid:S106A"9Replace this use of System.out or System.err by a logger.(ªÛçÿÿÿÿÿ8³Şä¢ï-
 ]squid:S2259("?A "NullPointerException" could be thrown; "o" is nullable here.(Ãşì¥8„ÙæÔí-
+_squid:S1126("AReplace this if-then-else statement by a single return statement.(Ãşì¥8„ÙæÔí-
 isquid:S1764("KCorrect one of the identical sub-expressions on both sides of operator "!="(Ãşì¥8„ÙæÔí-
+[
+squid:S106B"9Replace this use of System.out or System.err by a logger.(Ø÷ªêşÿÿÿÿ8˜ïÓ¢ï-
